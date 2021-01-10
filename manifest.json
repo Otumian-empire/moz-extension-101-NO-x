@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "moz-extension",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icon.jpeg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*",
+        "*://*.pornhub.com/*",
+        "*://*.dipseastories.com/*",
+        "*://*.xnxx.com/*",
+        "*://*.xvideos.com/*"
+      ],
+      "js": ["app.js"]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "popecan1000@gmail.com"
+    }
+  }
+}
