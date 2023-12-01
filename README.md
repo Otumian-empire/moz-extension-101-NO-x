@@ -18,3 +18,7 @@
 ## Feedback
 
 This is shabby actually. Any feedback is welcome.
+
+## Attribute
+
+<a href="https://www.flaticon.com/free-icons/gear" title="gear icons">Gear icons created by afif fudin - Flaticon</a>

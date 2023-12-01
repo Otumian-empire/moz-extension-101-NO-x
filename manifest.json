@@ -2,13 +2,10 @@
   "manifest_version": 2,
   "name": "moz-extension",
   "version": "1.0",
-
-  "description": "Adds a red border to all webpages matching mozilla.org.",
-
+  "description": "Redirects users to w3schools when they visit or are redirects to an XXX site",
   "icons": {
-    "48": "icon.jpeg"
+    "48": "moz-extension-settings.png"
   },
-
   "content_scripts": [
     {
       "matches": [
@@ -211,7 +208,6 @@
       "js": ["app.js"]
     }
   ],
-
   "browser_specific_settings": {
     "gecko": {
       "id": "popecan1000@gmail.com"
