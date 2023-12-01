@@ -12,7 +12,7 @@
 - `python scraper.py`
 - `python matches.py`
 - open, `about:debugging#/runtime/this-firefox` in forefox
-- `Load Temporay Add-on...`, choose the root directory
+- `Load Temporary Add-on...`, choose the root directory
 - Reload if there is any issue or create an issue
 
 ## Feedback
